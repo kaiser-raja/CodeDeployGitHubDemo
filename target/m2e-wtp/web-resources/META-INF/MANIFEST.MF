@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: Backend
+Implementation-Version: 0.1.0
+Implementation-Vendor-Id: Backend
+Build-Jdk: 1.7.0_71
+Built-By: LV
+Created-By: Maven Integration for Eclipse
+Main-Class: com.backend.application.config.Application
+
