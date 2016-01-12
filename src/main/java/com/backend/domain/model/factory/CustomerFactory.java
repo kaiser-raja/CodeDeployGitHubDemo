@@ -1,4 +1,4 @@
-/*package com.backend.domain.model.factory;
+package com.backend.domain.model.factory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,4 +30,3 @@ public class CustomerFactory extends BaseFactory {
 		return customer;
 	}
 }
-*/

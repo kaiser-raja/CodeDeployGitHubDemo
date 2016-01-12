@@ -1,4 +1,4 @@
-/*package com.backend.domain.model;
+package com.backend.domain.model;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -42,4 +42,3 @@ public class Phone extends BaseEntity {
 	
 	
 }
-*/

@@ -1,10 +1,12 @@
-/*package com.backend.domain.model;
+package com.backend.domain.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
@@ -98,4 +100,3 @@ public class Customer extends BaseEntity {
 		addresses.add(address);
 	}
 }
-*/

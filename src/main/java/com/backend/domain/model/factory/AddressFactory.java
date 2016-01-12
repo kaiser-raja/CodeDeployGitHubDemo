@@ -1,4 +1,4 @@
-/*package com.backend.domain.model.factory;
+package com.backend.domain.model.factory;
 
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
@@ -20,4 +20,3 @@ public class AddressFactory extends BaseFactory {
 		return address;
 	}
 }
-*/

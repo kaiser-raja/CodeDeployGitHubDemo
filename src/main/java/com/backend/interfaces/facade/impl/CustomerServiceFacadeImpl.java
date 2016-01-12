@@ -1,4 +1,4 @@
-/*package com.backend.interfaces.facade.impl;
+package com.backend.interfaces.facade.impl;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.backend.application.service.CustomerService;
+import com.backend.domain.model.Customer;
 import com.backend.domain.model.Phone;
 import com.backend.domain.model.exception.DomainException;
 import com.backend.domain.model.exception.FacadeException;
@@ -89,4 +90,3 @@ public class CustomerServiceFacadeImpl extends BaseServiceFacadeImpl implements 
         return customFieldMapping;
 	}
 }
-*/

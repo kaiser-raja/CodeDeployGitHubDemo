@@ -1,4 +1,4 @@
-/*package com.backend.interfaces.controller;
+package com.backend.interfaces.controller;
 
 
 import java.util.Map;
@@ -32,4 +32,4 @@ public class CustomerController extends BaseController {
     	   return createFailedModelMap(e.getFacadeExceptionMessage());
        }
     }
-}*/
+}

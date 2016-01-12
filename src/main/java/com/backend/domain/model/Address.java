@@ -1,7 +1,10 @@
-/*package com.backend.domain.model;
+package com.backend.domain.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -14,7 +17,7 @@ public class Address extends BaseEntity {
 	private String floorNo;
 	private String city;
 	
-	//private Customer customer;
+	private Customer customer;
 
 	
 	@Column(name = "house_no")
@@ -75,4 +78,3 @@ public class Address extends BaseEntity {
 		this.customer = customer;
 	}
 }
-*/
