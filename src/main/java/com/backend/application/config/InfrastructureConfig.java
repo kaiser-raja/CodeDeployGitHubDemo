@@ -35,7 +35,7 @@ public class InfrastructureConfig {
 	      em.setDataSource(dataSource());
 	      em.setPackagesToScan(new String[] { "com.backend.domain.model", "com.backend.infrastructure.persistence", "com.backend.interfaces.facade.*", "com.backend.application.service.*" } );
 	      //em.setPackagesToScan(new String[] { "com.backend" } );
-	      em.setPersistenceUnitName("homecooked");
+	      em.setPersistenceUnitName("foodies");
 	      JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 	      em.setJpaVendorAdapter(vendorAdapter);
 	      em.setJpaProperties(additionalProperties());
@@ -48,9 +48,9 @@ public class InfrastructureConfig {
 	   public DataSource dataSource(){
 	      DriverManagerDataSource dataSource = new DriverManagerDataSource();
 	      dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	      dataSource.setUrl("jdbc:mysql://10.164.2.5:3306/homecooked");
-	      dataSource.setUsername( "root" );
-	      dataSource.setPassword( "root" );
+	      dataSource.setUrl("jdbc:mysql://foodiesdb.cddo0qantnuh.us-west-2.rds.amazonaws.com/foodies");
+	      dataSource.setUsername( "outofline" );
+	      dataSource.setPassword( "Gabardash194" );
 	      Properties properties = new Properties();
 	      properties.setProperty("processEscapes", "true");
 	      dataSource.setConnectionProperties(properties);

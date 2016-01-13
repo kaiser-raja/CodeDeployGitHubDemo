@@ -16,7 +16,7 @@ public abstract class BaseRepositoryImpl<E extends BaseEntity> extends GenericRe
         BaseRepository<E> { // NO_UCD (use default)
 
     protected static final Logger LOG = LoggerFactory.getLogger(BaseRepositoryImpl.class);
-	@PersistenceContext(unitName = "homecooked")
+	@PersistenceContext(unitName = "foodies")
 	protected EntityManager em;
     
     @Override

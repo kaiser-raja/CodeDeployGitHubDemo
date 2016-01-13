@@ -1,4 +1,4 @@
-/*package com.backend.domain.model.repository;
+package com.backend.domain.model.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
@@ -8,4 +8,3 @@ public interface PhoneRepository extends CrudRepository<Phone, Long> {
 	public Phone findByCountryCodeAndPhoneNumber(String countryCode, String phoneNumber);
 
 }
-*/

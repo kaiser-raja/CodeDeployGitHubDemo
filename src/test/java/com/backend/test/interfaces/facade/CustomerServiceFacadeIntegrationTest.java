@@ -1,4 +1,4 @@
-/*package com.backend.test.interfaces.facade;
+package com.backend.test.interfaces.facade;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,4 +31,3 @@ public class CustomerServiceFacadeIntegrationTest {
 		}
 	}
 }
-*/

@@ -1,4 +1,4 @@
-/*package com.backend.infrastructure.persistence;
+package com.backend.infrastructure.persistence;
 
 import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;
@@ -90,4 +90,3 @@ public class PhoneRepositoryImpl extends BaseRepositoryImpl<Phone> implements Ph
 	}
 
 }
-*/

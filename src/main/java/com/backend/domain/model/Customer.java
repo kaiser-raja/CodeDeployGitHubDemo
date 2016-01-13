@@ -1,12 +1,10 @@
 package com.backend.domain.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
@@ -74,7 +72,7 @@ public class Customer extends BaseEntity {
 	}
 	
 	//@LazyCollection(LazyCollectionOption.FALSE)
-	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY, mappedBy="customer")
+	@OneToMany(cascade = CascadeType.ALL, orphanRemoval = true/*, fetch = FetchType.LAZY, mappedBy="customer"*/)
 	@JoinColumn(name="customer_id")
 	public List<Address> getAddresses() {
 		return addresses;
@@ -92,11 +90,11 @@ public class Customer extends BaseEntity {
 		this.phone = phone;
 	}
 	
-	public void setCustomerAddress(Address address) {
+	/*public void setCustomerAddress(Address address) {
 		if (addresses == null) {
 			addresses = new ArrayList<Address>();
 		}
 		address.setCustomer(this);
 		addresses.add(address);
-	}
+	}*/
 }

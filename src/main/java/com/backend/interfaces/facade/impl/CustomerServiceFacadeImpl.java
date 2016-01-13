@@ -64,7 +64,6 @@ public class CustomerServiceFacadeImpl extends BaseServiceFacadeImpl implements 
             }
             else {
             	Customer cust = customerRepository.findByPhone(phone);
-            	System.out.println(cust.getFirstName());
             }
 
 

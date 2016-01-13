@@ -50,7 +50,7 @@ public abstract class AbstractIntegrationTest {
 	public void populateDatabase() throws SQLException {
 
 		ResourceDatabasePopulator populator = new ResourceDatabasePopulator();
-		populator.addScript(new ClassPathResource("homecooked.sql"));
+		populator.addScript(new ClassPathResource("foodies.sql"));
 
 		Connection connection = null;
 

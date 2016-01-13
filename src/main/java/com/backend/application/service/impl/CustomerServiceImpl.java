@@ -63,7 +63,7 @@ public class CustomerServiceImpl implements CustomerService{
 			customer = customerFactory.create(firstName, lastName, BCrypt.hashpw(password, BCrypt.gensalt(12)), email, address, phone);
 			customerRepository.save(customer);
 			
-			communicationHandler.processCommunicationEvent(CommunicationEventType.NEW_CUSTOMER_SIGNUP, customer);
+			//communicationHandler.processCommunicationEvent(CommunicationEventType.NEW_CUSTOMER_SIGNUP, customer);
 			
 			
 		} catch (FactoryException e) {

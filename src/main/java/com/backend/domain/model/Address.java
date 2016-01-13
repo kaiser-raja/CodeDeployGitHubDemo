@@ -17,7 +17,7 @@ public class Address extends BaseEntity {
 	private String floorNo;
 	private String city;
 	
-	private Customer customer;
+	//private Customer customer;
 
 	
 	@Column(name = "house_no")
@@ -68,7 +68,7 @@ public class Address extends BaseEntity {
 		this.city = city;
 	}
 	
-	@ManyToOne(optional = false, fetch = FetchType.LAZY)
+	/*@ManyToOne(optional = false, fetch = FetchType.LAZY)
 	@JoinColumn(name = "customer_id")
     public Customer getCustomer() {
 		return customer;
@@ -76,5 +76,5 @@ public class Address extends BaseEntity {
 
 	public void setCustomer(Customer customer) {
 		this.customer = customer;
-	}
+	}*/
 }
