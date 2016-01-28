@@ -1,2 +1,2 @@
 #!/bin/bash
-/opt/tomcat8/stop
+/opt/tomcat8/bin/shutdown.sh
