@@ -12,12 +12,9 @@ permissions:
     mode: 777
     type:
     - directory
+    
 hooks:
   BeforeInstall:
-    - location: scripts/stop_server
-      timeout: 300
-      runas: ec2-user
-      
     - location: scripts/build_script.sh
       timeout: 300
       runas: ec2-user
