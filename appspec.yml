@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /src
-    destination: /opt/source/Backend
+    destination: /opt/source/Backend/
   - source: /pom.xml
-    destination: /opt/source/Backend
+    destination: /opt/source/Backend/
   - source: /Backend.war
     destination: /opt/tomcat8/webapps/
     
