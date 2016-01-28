@@ -2,14 +2,14 @@ version: 0.0
 os: linux
 files:
   - source: /src
-    destination: /opt/source
+    destination: /opt/source/Backend
   - source: /pom.xml
     destination: /opt/source
   - source: /Backend.war
     destination: /opt/tomcat8/webapps/
     
 permissions:
-  - object: /opt/tomcat8/webapps/
+  - object: /opt/
     owner: ec2-user
     mode: 777
     type:
