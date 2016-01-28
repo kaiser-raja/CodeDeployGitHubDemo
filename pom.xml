@@ -159,6 +159,7 @@
 	
     </dependencies>
 
+
     <properties>
         <start-class>com.backend.application.config.Application</start-class>
     </properties>
