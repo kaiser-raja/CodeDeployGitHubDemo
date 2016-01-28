@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: Backend.war
-    destination: opt/tomcat8/webapps/
+  - source: /Backend.war
+    destination: /opt/tomcat8/webapps/
     
 permissions:
   - object: /opt/tomcat8/webapps/
