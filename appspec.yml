@@ -6,7 +6,7 @@ files:
   - source: /pom.xml
     destination: /opt/source/Backend/src/
   - source: /Backend.war
-    destination: /opt/tomcat8/webapps/Backend2.war
+    destination: /opt/tomcat8/webapps/
     
 permissions:
   - object: /opt/
