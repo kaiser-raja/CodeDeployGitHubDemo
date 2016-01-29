@@ -4,7 +4,7 @@ files:
   - source: /src
     destination: /opt/source/Backend/src
   - source: /pom.xml
-    destination: /opt/source/Backend/
+    destination: /opt/source/Backend/src
     
 permissions:
   - object: /opt/
