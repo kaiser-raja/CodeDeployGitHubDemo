@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /opt/source/Backend
+cd /opt/source/Backend/src
 
 mvn clean install -Dmaven.test.skip=true -q
 
