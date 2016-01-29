@@ -14,12 +14,11 @@ permissions:
     - directory
     
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/build_script.sh
       timeout: 300
       runas: ec2-user
       
-  AfterInstall:
     - location: scripts/start_server
       timeout: 300
       runas: ec2-user
