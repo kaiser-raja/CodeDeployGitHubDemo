@@ -7,3 +7,6 @@ mvn clean install -Dmaven.test.skip=true -q
 mv /opt/source/Backend/target/Backend-0.1.0.war /opt/tomcat8/webapps/Backend.war
 
 /opt/tomcat8/bin/shutdown.sh
+
+rm /opt/tomcat8/Backend.war
+rm -rf /opt/tomcat8/Backend
