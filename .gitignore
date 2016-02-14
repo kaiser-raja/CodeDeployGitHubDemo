@@ -1,5 +1,8 @@
 /.settings/
 /.classpath
 /target/
+<<<<<<< HEAD
 /.gitignore
 /.project
+=======
+>>>>>>> a3072b92e4dd0a68269038b3c452dc47429d8771
